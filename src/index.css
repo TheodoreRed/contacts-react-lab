@@ -1,0 +1,19 @@
+/** Resets and gloabal styles*/
+
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Space Grotesk;
+  background-color: #151b1d;
+}
+
+button {
+  cursor: pointer;
+}

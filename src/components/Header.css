@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ecf2f4;
+  border-bottom: 1px solid #5a7d7c;
+  padding: 10px 0px;
+}
+
+.Header .hamburger {
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.Header .hamburger:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s linear;
+}
+
+.Header h1 {
+  font-size: 3rem;
+  padding-right: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+}

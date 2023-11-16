@@ -1,0 +1,43 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  color: #ecf2f4;
+  padding: 50px;
+  font-weight: 700;
+  flex: 2;
+  height: fit-content;
+}
+
+.ContactForm .submit-block {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.ContactForm .checkbox-favorite-area {
+  display: flex;
+  align-items: center;
+}
+
+.ContactForm button {
+  border: none;
+  background-color: #151b1d;
+  color: #e36940;
+  border: 1px solid #e36940;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.ContactForm #firstName,
+.ContactForm #lastName,
+.ContactForm #phoneNumber {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ContactForm .phone-error-message {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: #e36940;
+}
